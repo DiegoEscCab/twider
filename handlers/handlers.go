@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/DiegoEscCab/twider/middlew"
+	"github.com/DiegoEscCab/twider/middleW"
 	"github.com/DiegoEscCab/twider/routers"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
@@ -15,7 +15,7 @@ import (
 func Manejadores() {
 	router := mux.NewRouter()
 
-	router.HandleFunc("/registro", middlew.ChequeoBD(routers.Registro)).Methods("POST")
+	router.HandleFunc("/registro", middleW.ChequeoBD(routers.Registro)).Methods("POST")
 
 	PORT := os.Getenv("PORT")
 	if PORT == "" {
