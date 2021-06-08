@@ -9,14 +9,14 @@ import (
 /*Usuario es el modelo de ususario en la BD en mongo*/
 type Usuario struct {
 	ID              primitive.ObjectID `bson:"_id, omitempty" json:"id"`
-	Nombre          string             `bson:"nombre" json:"nombre, omitempty"`
-	Apellido        string             `bson:"apellidos" json:"apellidos, omitempty"`
-	FechaNacimiento time.Time          `bson:"fechaNacimiento" json:"fechaNacimiento, omitempty"`
+	Nombre          string             `bson:"nombre, omitempty" json:"nombre"`
+	Apellido        string             `bson:"apellidos" json:"apellidos"`
+	FechaNacimiento time.Time          `bson:"fechaNacimiento" json:"fechaNacimiento"`
 	Email           string             `bson:"email" json:"email"`
-	Password        string             `bson:"password" json:"password, omitempty"`
-	Avatar          string             `bson:"avatar" json:"avatar, omitempty"`
-	Banner          string             `bson:"banner" json:"banner, omitempty"`
-	Biografia       string             `bson:"biografia" json:"biografia, omitempty"`
-	Ubicacion       string             `bson:"ubicacion" json:"ubicacion, omitempty"`
-	SitioWeb        string             `bson:"sitioweb" json:"sitioWeb, omitempty"`
+	Password        string             `bson:"password, omitempty" json:"password"`
+	Avatar          string             `bson:"avatar, omitempty" json:"avatar"`
+	Banner          string             `bson:"banner" json:"banner"`
+	Biografia       string             `bson:"biografia" json:"biografia"`
+	Ubicacion       string             `bson:"ubicacion, omitempty" json:"ubicacion"`
+	SitioWeb        string             `bson:"sitioweb" json:"sitioWeb"`
 }
