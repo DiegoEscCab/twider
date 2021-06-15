@@ -10,14 +10,14 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-func LeoTweets(ID string, pagina int64) ([]*models.devuelvoTweets, bool) {
+func LeoTweets(ID string, pagina int64) ([]*models.DevuelvoTweets, bool) {
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second*15)
 	defer cancel()
 
 	db := MongoCN.Database("twider")
 	col := db.Collection("tweet")
 
-	var resultados []*models.devuelvoTweets
+	var resultados []*models.DevuelvoTweets
 
 	condicion := bson.M{
 		"userid": ID,
