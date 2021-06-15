@@ -7,7 +7,7 @@ import (
 )
 
 /* DevuelvoTweets es la estructura con la que devolverermos los tweets*/
-type DevueltoTweets struct {
+type DevuelvoTweets struct {
 	ID      primitive.ObjectID `bson:"_id" json:"_id,omitempty"`
 	UserID  string             `bson:"userid" json:"userId,omitempty"`
 	Mensaje string             `bson:"mensaje" json:"mensaje,omitempty"`
