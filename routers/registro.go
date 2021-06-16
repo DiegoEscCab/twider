@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/DiegoEscCab/twider/bd"
-	"github.com/DiegoEscCab/twider/models"
+	"github.com/DiegoEscCab/twider/tree/main/bd"
+	"github.com/DiegoEscCab/twider/tree/main/models"
 )
 
 /* Registro es la función para crear en la BD el registro del usuario*/

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/DiegoEscCab/twider/bd"
-	"github.com/DiegoEscCab/twider/models"
+	"github.com/DiegoEscCab/twider/tree/main/bd"
+	"github.com/DiegoEscCab/twider/tree/main/models"
 )
 
 /* ModificarPerfil modifica el perfil de usuario */

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/DiegoEscCab/twider/models"
+	"github.com/DiegoEscCab/twider/tree/main/models"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

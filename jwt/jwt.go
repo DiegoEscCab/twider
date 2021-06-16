@@ -3,7 +3,7 @@ package jwt
 import (
 	"time"
 
-	"github.com/DiegoEscCab/twider/models"
+	"github.com/DiegoEscCab/twider/tree/main/models"
 	jwt "github.com/dgrijalva/jwt-go"
 )
 

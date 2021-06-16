@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/DiegoEscCab/twider/bd"
-	"github.com/DiegoEscCab/twider/jwt"
-	"github.com/DiegoEscCab/twider/models"
+	"github.com/DiegoEscCab/twider/tree/main/bd"
+	"github.com/DiegoEscCab/twider/tree/main/jwt"
+	"github.com/DiegoEscCab/twider/tree/main/models"
 )
 
 /*Login realiza el login*/

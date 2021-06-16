@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/DiegoEscCab/twider/bd"
-	"github.com/DiegoEscCab/twider/models"
+	"github.com/DiegoEscCab/twider/tree/main/bd"
+	"github.com/DiegoEscCab/twider/tree/main/models"
 	jwt "github.com/dgrijalva/jwt-go"
 )
 

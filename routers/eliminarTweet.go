@@ -3,7 +3,7 @@ package routers
 import (
 	"net/http"
 
-	"github.com/DiegoEscCab/twider/bd"
+	"github.com/DiegoEscCab/twider/tree/main/bd"
 )
 
 /*EliminarTweet permite borrar un tweet determinado */

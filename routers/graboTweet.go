@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/DiegoEscCab/twider/bd"
-	"github.com/DiegoEscCab/twider/models"
+	"github.com/DiegoEscCab/twider/tree/main/bd"
+	"github.com/DiegoEscCab/twider/tree/main/models"
 )
 
 func GraboTweet(w http.ResponseWriter, r *http.Request) {

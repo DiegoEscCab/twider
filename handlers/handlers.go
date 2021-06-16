@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/DiegoEscCab/twider/middleW"
-	"github.com/DiegoEscCab/twider/routers"
+	"github.com/DiegoEscCab/twider/tree/main/middleW"
+	"github.com/DiegoEscCab/twider/tree/main/routers"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
 )

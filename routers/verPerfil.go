@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/DiegoEscCab/twider/bd"
+	"github.com/DiegoEscCab/twider/tree/main/bd"
 )
 
 /*VerPerfil permite extraer los valores del Perfil*/
