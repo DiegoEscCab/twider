@@ -3,7 +3,7 @@ package middleW
 import (
 	"net/http"
 
-	"github.com/DiegoEscCab/twider/tree/main/bd"
+	"github.com/DiegoEscCab/twider/bd"
 )
 
 /* ChequeoBD es el middleware que nos permite conocer el estado de la BD*/

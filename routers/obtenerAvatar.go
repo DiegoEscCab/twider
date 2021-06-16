@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/DiegoEscCab/twider/tree/main/bd"
+	"github.com/DiegoEscCab/twider/bd"
 )
 
 /*ObtenerAvatar envía el avatar al HTTP*/

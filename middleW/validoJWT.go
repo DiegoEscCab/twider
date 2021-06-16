@@ -3,7 +3,7 @@ package middleW
 import (
 	"net/http"
 
-	"github.com/DiegoEscCab/twider/tree/main/routers"
+	"github.com/DiegoEscCab/twider/routers"
 )
 
 /* ValidoJWT permite validar el JWT que nos viene en la petición*/

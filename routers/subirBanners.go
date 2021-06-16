@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/DiegoEscCab/twider/tree/main/bd"
-	"github.com/DiegoEscCab/twider/tree/main/models"
+	"github.com/DiegoEscCab/twider/bd"
+	"github.com/DiegoEscCab/twider/models"
 )
 
 func SubirBanners(w http.ResponseWriter, r *http.Request) {

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/DiegoEscCab/twider/tree/main/bd"
+	"github.com/DiegoEscCab/twider/bd"
 )
 
 func LeoTweets(w http.ResponseWriter, r *http.Request) {

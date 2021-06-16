@@ -1,7 +1,7 @@
 package bd
 
 import (
-	"github.com/DiegoEscCab/twider/tree/main/models"
+	"github.com/DiegoEscCab/twider/models"
 	"golang.org/x/crypto/bcrypt"
 )
 

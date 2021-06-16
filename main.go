@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/DiegoEscCab/twider/tree/main/bd"
-	"github.com/DiegoEscCab/twider/tree/main/handlers"
+	"github.com/DiegoEscCab/twider/bd"
+	"github.com/DiegoEscCab/twider/handlers"
 )
 
 func main() {
