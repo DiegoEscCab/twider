@@ -30,6 +30,7 @@ func Manejadores() {
 	router.HandleFunc("/obtenerBanner", middleW.ChequeoBD(routers.ObtenerBanner)).Methods("GET")
 	/*Esta sección es para poder seguir y dejar de seguir un perfil en la aplicación*/
 	router.HandleFunc("/altaRelacion", middleW.ChequeoBD(routers.AltaRelacion)).Methods("POST")
+	router.HandleFunc("/bajaRelacion", middleW.ChequeoBD(routers.BajaRelacion)).Methods("DELETE")
 
 	PORT := os.Getenv("PORT")
 	if PORT == "" {
