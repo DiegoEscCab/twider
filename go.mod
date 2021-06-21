@@ -1,6 +1,6 @@
 module github.com/DiegoEscCab/twider
 
-go 1.23
+go 1.16
 
 require (
 	github.com/aws/aws-sdk-go v1.38.63 // indirect
